@@ -32,8 +32,10 @@ mnemosyneBOT, inspired by the Greek goddess of memory, is a sketch of a conversa
  Embeddings, vectorizers, and interaction data are persistently stored in files, allowing the agent to maintain its state across sessions.
 
 
-~
-
 **GPT4ALL Integration:**
+
  The agent is built on top of the GPT4ALL python api, using a local model.
+
+
+
 
