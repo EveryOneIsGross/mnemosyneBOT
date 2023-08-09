@@ -3,7 +3,7 @@
 
 ![Mnemosyne](https://github.com/EveryOneIsGross/mnemosyneBOT/assets/23621140/3859e884-143e-46a1-9281-a474dbd98add)
 
-mnemosyneBOT is a conversation agent that generates responses based on user input and considers the historical context via the sentiment of the input. The agent is built on top of the GPT4ALL and uses several novel features to enhance the conversational experience.
+mnemosyneBOT is a conversation agent that generates responses based on user input and considers the historical context via the sentiment of the input. The agent is built on top of the GPT4ALL and uses several novel features to enhance the conversational experience. Drawing inspiration from Mnemosyne, the ancient Greek goddess of memory, this bot dynamically manages its conversational context using sentiment analysis and a unique memory decay mechanism.
 
 ## Features
 --------
