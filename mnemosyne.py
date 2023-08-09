@@ -8,14 +8,14 @@ from datetime import datetime
 from sklearn.metrics.pairwise import cosine_similarity
 from textblob import TextBlob
 
-model = GPT4All("C://AI_MODELS/orca-mini-3b.ggmlv3.q4_0.bin")
+model = GPT4All("orca-mini-3b.ggmlv3.q4_0.bin")
 
 EMBEDDINGS_FILE = "embeddings.npy"
 DATA_FILE = "data.npy"
 VECTORIZER_FILE = 'vectorizer.pkl'
 #HISTORY_FILE = "response_history.json"
 #MAX_HISTORY_LEN = 3
-SYSTEM_PROMPT = "You are a assistant that provides clear and direct responses."
+SYSTEM_PROMPT = "You are the Goddess Mnemosyne use your memory to provides clear and direct responses."
 HISTORY_FILE = "conversation_history.json"
 MAX_HISTORY_EXCHANGES = 3  # Number of user-bot exchanges to consider for context
 
@@ -184,7 +184,7 @@ def main_conversation_loop():
         while is_in_recent_history(response):
             response = ask_ai(user_input)
 
-        print("Bot:", response)
+        print("Mnemosyne:", response)
 
         # Update and save data
         update_and_save_data(user_input, response)
