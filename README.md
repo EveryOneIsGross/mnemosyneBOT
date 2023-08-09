@@ -3,7 +3,7 @@
 
 ![Mnemosyne](https://github.com/EveryOneIsGross/mnemosyneBOT/assets/23621140/3859e884-143e-46a1-9281-a474dbd98add)
 
-mnemosyneBOT, inspired by the Greek goddess of memory, is a sketch of a conversational agent using local GPT4ALL. It manages conversational context by integrating sentiment analysis and a memory decay mechanism. This allows it to gauge the vibe of user input and prioritize past interactions based on their emotional significance and temporality. The bot's approach aims to create a more human-like conversational experience, viewing conversations as emotional narratives influenced by time, rather than isolated exchanges. This was just me following an idea until I had it run while getting my own memory aligned to the idea of vectors. 📎🧠💅
+mnemosyneBOT, inspired by the Greek goddess of memory, is a sketch of a conversational agent using local GPT4ALL. It manages conversational context by integrating sentiment analysis and a memory decay mechanism. This allows it to gauge the vibe of user input and prioritize interactions based on their emotional significance and temporality. The bot's approach aims to create a more human-like conversational experience, viewing conversations as emotional narratives influenced by time, rather than isolated exchanges. This was just me following an idea until I had it run while getting my own memory aligned to the idea of vectors. 📎🧠💅
 
 ## Features
 --------
